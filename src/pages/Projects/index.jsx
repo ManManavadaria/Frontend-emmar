@@ -30,7 +30,7 @@ const ProjectsPage = () => {
               Our Work
             </Text>
           </div>
-            <NavBar/>
+          <NavBar />
         </div>
         <div className="bg-white-A700_01 flex flex-col font-garamond gap-10 items-start justify-start md:px-10 sm:px-5 px-60 py-20 w-auto md:w-full">
           <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center max-w-[1440px] min-h-[auto] mx-auto w-full">
@@ -205,10 +205,8 @@ const ProjectsPage = () => {
               userimage="images/img_frame18557_32.png"
               projectname="G+9 Apartment"
             />
-          </div>
-          <div className="flex flex-col items-center justify-center max-w-[1440px] mx-auto w-full">
             <ProjectsColumnlanguage
-              className="border border-gray-600 border-solid flex flex-col items-start justify-start w-[464px] sm:w-full"
+              className="border border-gray-600 border-solid flex flex-1 flex-col items-start justify-start w-full"
               userimage="images/img_frame18557_33.png"
               projectname="Landscape"
             />

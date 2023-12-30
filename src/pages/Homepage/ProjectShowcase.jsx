@@ -5,39 +5,39 @@ import { FaChevronCircleLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const projectData = [
-  { projectName: "CocaCola Project", userimage: "images/img_frame18557_1.png" },
-  { projectName: "Project Ibrahim Guled", userimage: "images/img_frame18557_2.png" },
-  { projectName: "Project yeni som", userimage: "images/img_frame18557_3.png" },
-  { projectName: "Riyo Travel agency Project", userimage: "images/img_frame18557_4.png" },
-  { projectName: "Villa Duplex Project", userimage: "images/img_frame18557_5.png" },
-  { projectName: "G+4 GL Construction Project", userimage: "images/img_frame18557_6.png" },
-  { projectName: "Executive Restaurant", userimage: "images/img_frame18557_7.png" },
-  { projectName: "Aparment Project", userimage: "images/img_frame18557_8.png" },
-  { projectName: "Bakaro Apartment Project", userimage: "images/img_frame18557_9.png" },
-  { projectName: "G+4 Apartment", userimage: "images/img_frame18557_10.png" },
-  { projectName: "Hijra Real Estate 10-20", userimage: "images/img_frame18557_11.png" },
-  { projectName: "Hijra Real Estate 20-20", userimage: "images/img_frame18557_12.png" },
-  { projectName: "Himmah Property Duplex 10-20", userimage: "images/img_frame18557_13.png" },
-  { projectName: "Himmah Property Duplex 15-20", userimage: "images/img_frame18557_14.png" },
-  { projectName: "Himmah Property Villa", userimage: "images/img_frame18557_15.png" },
-  { projectName: "Inland Revenue Director Office", userimage: "images/img_frame18557_16.png" },
-  { projectName: "Kalkal Hospital", userimage: "images/img_frame18557_17.png" },
-  { projectName: "Laben Restaurant", userimage: "images/img_frame18557_18.png" },
-  { projectName: "Mesjid", userimage: "images/img_frame18557_19.png" },
-  { projectName: "QQ Hotel", userimage: "images/img_frame18557_20.png" },
-  { projectName: "QQ Resort", userimage: "images/img_frame18557_21.png" },
-  { projectName: "Smart Techno", userimage: "images/img_frame18557_22.png" },
-  { projectName: "Waliyo Apartment", userimage: "images/img_frame18557_23.png" },
-  { projectName: "Wedding Hall", userimage: "images/img_frame18557_24.png" },
-  { projectName: "Airlines Ethiopia", userimage: "images/img_frame18557_25.png" },
-  { projectName: "Amana", userimage: "images/img_frame18557_26.png" },
-  { projectName: "Aqua", userimage: "images/img_frame18557_27.png" },
-  { projectName: "Guled Yahye G+2", userimage: "images/img_frame18557_28.png" },
-  { projectName: "G+3 Apartment", userimage: "images/img_frame18557_29.png" },
-  { projectName: "G+6 Apartment", userimage: "images/img_frame18557_30.png" },
-  { projectName: "G+9 Apartment", userimage: "images/img_frame18557_31.png" },
-  { projectName: "Landscape", userimage: "images/img_frame18557_32.png" },
-  { projectName: "Landscape", userimage: "images/img_frame18557_33.png" },
+  { userimage: "images/img_frame18557_432x464.png", projectname: "CocaCola Project" },
+  { userimage: "images/img_rectangle2.png", projectname: "Project Hareed Hotel" },
+  { userimage: "images/img_frame18557_4.png", projectname: "Project Ibrahim Guled" },
+  { userimage: "images/img_frame18557_5.png", projectname: "Project yeni som" },
+  { userimage: "images/img_frame18557_6.png", projectname: "Riyo Travel agency Project" },
+  { userimage: "images/img_frame18557_7.png", projectname: "Villa Duplex Project" },
+  { userimage: "images/img_frame18557_8.png", projectname: "G+4 GL Construction Project" },
+  { userimage: "images/img_frame18557_9.png", projectname: "Executive Restaurant" },
+  { userimage: "images/img_frame18557_10.png", projectname: "Aparment Project" },
+  { userimage: "images/img_frame18557_11.png", projectname: "Bakaro Apartment Project" },
+  { userimage: "images/img_frame18557_12.png", projectname: "G+4  Apartment" },
+  { userimage: "images/img_frame18557_13.png", projectname: "hijra Real Estate 10-20" },
+  { userimage: "images/img_frame18557_14.png", projectname: "hijra Real Estate 20-20" },
+  { userimage: "images/img_frame18557_15.png", projectname: "Himmah Property Duplex 10-20" },
+  { userimage: "images/img_frame18557_16.png", projectname: "Himmah Property Duplex 15-20" },
+  { userimage: "images/img_frame18557_17.png", projectname: "Himmah Property Villa" },
+  { userimage: "images/img_frame18557_18.png", projectname: "inland revenue director office" },
+  { userimage: "images/img_frame18557_19.png", projectname: "Kalkal Hospital" },
+  { userimage: "images/img_frame18557_2.png", projectname: "Laben Restaurant" },
+  { userimage: "images/img_frame18557_20.png", projectname: "Mesjid" },
+  { userimage: "images/img_frame18557_21.png", projectname: "QQ Hotel" },
+  { userimage: "images/img_frame18557_22.png", projectname: "QQ Resort" },
+  { userimage: "images/img_frame18557_23.png", projectname: "Smart techno" },
+  { userimage: "images/img_frame18557_24.png", projectname: "Waliyo Apartment" },
+  { userimage: "images/img_frame18557_25.png", projectname: "weding hall" },
+  { userimage: "images/img_frame18557_26.png", projectname: "airlines ethiopia" },
+  { userimage: "images/img_frame18557_27.png", projectname: "Amana" },
+  { userimage: "images/img_frame18557_28.png", projectname: "Aqua" },
+  { userimage: "images/img_frame18557_29.png", projectname: "Guled Yahye G+2" },
+  { userimage: "images/img_frame18557_30.png", projectname: "G+3 appartment" },
+  { userimage: "images/img_frame18557_31.png", projectname: "G+6 Apartment" },
+  { userimage: "images/img_frame18557_32.png", projectname: "G+9 Apartment" },
+  { userimage: "images/img_frame18557_33.png", projectname: "Landscape" },
 ];
 
 
@@ -56,7 +56,7 @@ const ProjectShowcase = () => {
     return (
     <div className="flex sm:flex-col flex-row items-start justify-start w-full md:w-full">
       <Img
-        className="object-cover w-[60vw] sm:w-full sm:h-[300px] lg:h-[600px]"
+        className="object-cover w-[60vw] sm:w-full sm:h-[300px] md:h-[600px] lg:h-[600px]"
         src={projectData[currentImageIndex].userimage}
         alt="rectangleTwo"
       />
@@ -94,7 +94,7 @@ const ProjectShowcase = () => {
               className="md:text-5xl text-center text-[60px] text-white-A700 w-auto sm:text-[38px]"
               size="txtGaramond80WhiteA700"
             >
-              {projectData[currentImageIndex].projectName}
+              {projectData[currentImageIndex].projectname}
             </Text>
           </div>
           <Button

@@ -6,8 +6,8 @@ const ContactUsImage = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="absolute border border-lime-900 border-solid h-[375px] inset-[0] justify-center m-auto w-[95%]"></div>
-        <div className="absolute flex flex-col gap-10 h-max inset-[0] items-center justify-start m-auto w-auto">
+        <div className="absolute border border-lime-900 border-solid h-[375px] inset-[0] justify-center m-auto w-[95%] "></div>
+        <div className="absolute flex flex-col gap-10 h-max inset-[0] items-center p-2.5 justify-start m-auto w-auto">
           <Img
             className="h-[60px] md:h-auto object-cover w-[60px]"
             alt="icon"

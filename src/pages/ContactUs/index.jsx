@@ -244,7 +244,7 @@ const ContactUsPage = () => {
             orientation="horizontal"
           >
             <a href="mailto:info@emaar.so">
-              <div className="bg-gray-900 md:h-[375px] h-[395px] w-[250px] relative sm:w-full">
+              <div className="bg-gray-900 md:h-[375px] h-[395px] w-[250px] relative sm:w-full flex">
                 <div className="border border-lime-900 border-solid h-[375px] m-auto w-[95%]">
                   <div className="absolute flex flex-col gap-10 h-max inset-[0] items-center justify-start m-auto w-auto">
                     <Img
@@ -277,7 +277,7 @@ const ContactUsPage = () => {
                 locationtext="Call Us"
                 addresstext="252611110099"
               />
-            </a>
+            </a>  
             <a
               href="https://maps.app.goo.gl/6aoJb1m1Ycb7VgJD8"
               target="true"
