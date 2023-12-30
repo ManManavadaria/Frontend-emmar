@@ -1,0 +1,28 @@
+/* YourComponent.css */
+
+.card-container {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-container:hover {
+    transform: translateY(-20px); /* Adjust the value based on your preference */
+    z-index: 1;
+  }
+
+  /* .vision-card1-img{
+    background-image: rgb(0 0 0 / 50%) url('images/img_12photo2.png');
+
+      background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .vision-card2-img{
+    background: url('images/img_12photo2.png') no-repeat;
+  height: 500px;
+  width: 500px;
+  border: solid 1px #000;
+  padding-left: 300px;
+  box-sizing: border-box;
+  box-shadow: inset -350px 0 100px 0 #FFF;
+  } */
+  

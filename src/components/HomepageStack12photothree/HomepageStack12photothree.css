@@ -1,0 +1,20 @@
+/* HomepageStack12photothree.css */
+
+.image-slider {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .visible {
+    opacity: 1;
+    transition: opacity 4s ease-in-out;
+  }
+  
+  .hidden {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+  }
+  
