@@ -45,7 +45,7 @@ const ContactUsPage = () => {
       await validationSchema.validate(formData, { abortEarly: false });
       // If validation passes, continue with form submission
       const response = await axios.post(
-        "http://localhost:5000/api/user/register",
+        process.env.API,
         formData
       );
       if (response.status == 200) {
