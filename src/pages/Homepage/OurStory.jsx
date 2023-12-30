@@ -4,7 +4,7 @@ import { Text,Img } from 'components'
 const OurStory = () => {
   return (
     <>
-    <div className="bg-white-A700 flex md:flex-col flex-row md:gap-10 items-start justify-start pr-4 pt-4 w-full bg-[url('images/img_emaarlogo011.png')] bg-contain bg-no-repeat py-[50px]">
+    <div className="bg-white-A700 flex md:flex-col flex-row md:gap-10 items-start justify-start pr-4 pt-4 w-full bg-[url('../images/img_emaarlogo011.png')] bg-contain bg-no-repeat py-[50px]">
           <div className="flex font-garamond md:px-5 relative w-[40%] sm:w-full md:w-full">
             <Text
               className="m-auto mt-[30px]  sm:px-[10px] md:text-5xl text-[80px] items-center text-gray-900 z-[1]"
