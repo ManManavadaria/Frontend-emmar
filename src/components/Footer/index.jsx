@@ -4,21 +4,7 @@ import { Button, Img, Line, Text } from "components";
 
 const Footer = (props) => {
   const navigate = useNavigate();
-  const handleCallClick = () => {
-    console.log("call");
-    window.location.href = "tel:252611110099";
-  };
 
-  const handleEmailClick = () => {
-    window.location.href = 'mailto:info@emaar.so';
-  };
-
-  const handleLocationClick = () => {
-    console.log("locate");
-    // window.location.href = "https://maps.google.com";
-    window.location.href = "https://maps.app.goo.gl/d7x3LgKCUDyfBGn79";
-    
-  };
   return (
     <>
       <footer className={props.className}>
@@ -54,7 +40,10 @@ const Footer = (props) => {
                   size="xs"
                   variant="fill"
                 >
-                  <a href="https://twitter.com/emaarsom?fbclid=IwAR31ywCLfNs1AkwPakn4GLttxBCsxTt8z1BQBjSZOLjP5Pm7O8mSdMFbpto" target="true">
+                  <a
+                    href="https://twitter.com/emaarsom?fbclid=IwAR31ywCLfNs1AkwPakn4GLttxBCsxTt8z1BQBjSZOLjP5Pm7O8mSdMFbpto"
+                    target="true"
+                  >
                     <Img
                       className="h-5"
                       src="images/img_airplane.svg"
@@ -69,7 +58,10 @@ const Footer = (props) => {
                   size="xs"
                   variant="fill"
                 >
-                  <a href="https://www.linkedin.com/in/emaarsom/?fbclid=IwAR1c7B6vF6qd7XFuiTE_lx5Td0hoJGXZfGo08ValFPrKz_nTipEOOFeb-SY" target="true">
+                  <a
+                    href="https://www.linkedin.com/in/emaarsom/?fbclid=IwAR1c7B6vF6qd7XFuiTE_lx5Td0hoJGXZfGo08ValFPrKz_nTipEOOFeb-SY"
+                    target="true"
+                  >
                     <Img
                       className="h-5"
                       src="images/img_lalinkedinin.svg"
@@ -84,7 +76,10 @@ const Footer = (props) => {
                   size="xs"
                   variant="fill"
                 >
-                  <a href="https://www.instagram.com/emaarcosomalia/?fbclid=IwAR1s_7fDJmtf2vIlAdWSP3gpvSR62nrXs5-5rRHwpDhWJBs8mkfV-w-L7BI" target="true">
+                  <a
+                    href="https://www.instagram.com/emaarcosomalia/?fbclid=IwAR1s_7fDJmtf2vIlAdWSP3gpvSR62nrXs5-5rRHwpDhWJBs8mkfV-w-L7BI"
+                    target="true"
+                  >
                     <Img className="h-4" src="images/img_info.svg" alt="info" />
                   </a>
                 </Button>
@@ -95,7 +90,10 @@ const Footer = (props) => {
                   size="xs"
                   variant="fill"
                 >
-                  <a href="https://www.tiktok.com/@emaarsom?fbclid=IwAR0k6Nxzgndj-OIOpNgrJUhQvRGa6OyAe0Zc6D9-k7bFTnlOxQ4MoMRpfKU" target="true">
+                  <a
+                    href="https://www.tiktok.com/@emaarsom?fbclid=IwAR0k6Nxzgndj-OIOpNgrJUhQvRGa6OyAe0Zc6D9-k7bFTnlOxQ4MoMRpfKU"
+                    target="true"
+                  >
                     <Img src="images/img_vector.svg" alt="vector" />
                   </a>
                 </Button>
@@ -165,50 +163,65 @@ const Footer = (props) => {
                 </Text>
                 <ul className="flex flex-col gap-4 items-start justify-start w-full common-column-list">
                   <li>
-                    <div className="flex flex-row gap-4 items-start justify-center md:w-full" onClick={handleLocationClick}>
-                      <Img
-                        className="h-6 w-6"
-                        src="images/img_carbonlocationfilled.svg"
-                        alt="carbonlocationf"
-                      />
-                      <Text
-                        className="flex-1 leading-[30.00px] max-w-[252px] md:max-w-full text-gray-600 text-lg"
-                        size="txtPoppinsRegular18"
+                    <a
+                      href="https://maps.app.goo.gl/6aoJb1m1Ycb7VgJD8 "
+                      target="true"
+                    >
+                      <div
+                        className="flex flex-row gap-4 items-start justify-center md:w-full"
                       >
-                        1st Floor, Office 101, Sultan Business Park , Mogadishu,
-                        Somalia
-                      </Text>
-                    </div>
+                        <Img
+                          className="h-6 w-6"
+                          src="images/img_carbonlocationfilled.svg"
+                          alt="carbonlocationf"
+                        />
+                        <Text
+                          className="flex-1 leading-[30.00px] max-w-[252px] md:max-w-full text-gray-600 text-lg"
+                          size="txtPoppinsRegular18"
+                        >
+                          1st Floor, Office 101, Sultan Business Park ,
+                          Mogadishu, Somalia
+                        </Text>
+                      </div>
+                    </a>
                   </li>
                   <li>
-                    <div className="flex flex-row gap-4 items-center justify-center md:w-full" onClick={handleCallClick}>
-                      <Img
-                        className="h-6 w-6"
-                        src="images/img_carbonphonefilled.svg"
-                        alt="carbonphonefill"
-                      />
-                      <Text
-                        className="flex-1 text-gray-600 text-lg w-auto"
-                        size="txtPoppinsRegular18"
+                    <a href="tel:252611110099" target="true">
+                      <div
+                        className="flex flex-row gap-4 items-center justify-center md:w-full"
                       >
-                        252611110099
-                      </Text>
-                    </div>
+                        <Img
+                          className="h-6 w-6"
+                          src="images/img_carbonphonefilled.svg"
+                          alt="carbonphonefill"
+                        />
+                        <Text
+                          className="flex-1 text-gray-600 text-lg w-auto"
+                          size="txtPoppinsRegular18"
+                        >
+                          252611110099
+                        </Text>
+                      </div>
+                    </a>
                   </li>
                   <li>
-                    <div className="flex flex-row gap-4 items-center justify-center md:w-full" onClick={handleEmailClick}>
-                      <Img
-                        className="h-6 md:h-auto object-cover w-6"
-                        src="images/img_icon_24x24.png"
-                        alt="icon"
-                      />
-                      <Text
-                        className="flex-1 text-gray-600 text-lg w-auto"
-                        size="txtPoppinsRegular18"
+                    <a href="mailto:info@emaar.so">
+                      <div
+                        className="flex flex-row gap-4 items-center justify-center md:w-full"
                       >
-                        info@emaar.so
-                      </Text>
-                    </div>
+                        <Img
+                          className="h-6 md:h-auto object-cover w-6"
+                          src="images/img_icon_24x24.png"
+                          alt="icon"
+                        />
+                        <Text
+                          className="flex-1 text-gray-600 text-lg w-auto"
+                          size="txtPoppinsRegular18"
+                        >
+                          info@emaar.so
+                        </Text>
+                      </div>
+                    </a>
                   </li>
                 </ul>
               </div>

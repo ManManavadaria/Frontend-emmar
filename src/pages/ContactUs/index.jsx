@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import * as Yup from "yup"
+import * as Yup from "yup";
 
 import { Button, Img, Text, TextArea, List, Input } from "components";
 import Footer from "components/Footer";
@@ -44,13 +44,10 @@ const ContactUsPage = () => {
     try {
       await validationSchema.validate(formData, { abortEarly: false });
       // If validation passes, continue with form submission
-      const response = await axios.post(
-        process.env.API,
-        formData
-      );
+      const response = await axios.post(process.env.API, formData);
       if (response.status == 200) {
         // Clear the form data
-        document.getElementById('form1').reset();
+        document.getElementById("form1").reset();
       }
       setSuccessMessage("Form submitted successfully!");
     } catch (error) {
@@ -116,7 +113,7 @@ const ContactUsPage = () => {
               reach out. We look forward to hearing from you!
             </Text>
             <div className="flex flex-col gap-6 items-start justify-start w-auto md:w-full">
-              <form onSubmit={handleSubmit} id="form1">
+              <form onSubmit={handleSubmit} id="form1" className="w-full">
                 <div className="flex flex-col gap-3 items-start justify-start max-w-[708px] w-full">
                   <div className="flex md:flex-col flex-row gap-5 items-start justify-start w-full">
                     <div className="flex flex-1 flex-col gap-3 items-start justify-start w-full">
@@ -233,47 +230,60 @@ const ContactUsPage = () => {
                 >
                   submit
                 </Button>
-                {successMessage && <p className="text-green-500">{successMessage}</p>}
+                {successMessage && (
+                  <p className="text-green-500">{successMessage}</p>
+                )}
               </form>
             </div>
           </div>
         </div>
-        <div className="bg-gray-100 flex flex-col items-center justify-start max-w-[1920px] md:px-10 sm:px-5 px-[277px] py-[100px] w-full">
+        <div className="bg-gray-100 flex flex-row items-center justify-start max-w-[1920px] md:px-10 sm:px-5 px-[277px] py-[100px] w-full">
           <List
-            className="sm:flex-col flex-row gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-start max-w-[1440px] mx-auto w-full"
+            // className="sm:flex-col flex-row gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-start max-w-[1440px] mx-auto w-full"
+            className="sm:flex-col flex flex-row gap-5 justify-center flex-wrap max-w-[1440px] mx-auto w-full"
             orientation="horizontal"
           >
-            <div className="bg-gray-900 md:h-[375px] h-[395px] p-2.5 relative w-full">
-              <div className="border border-lime-900 border-solid h-[375px] m-auto w-[95%]"></div>
-              <div className="absolute flex flex-col gap-10 h-max inset-[0] items-center justify-start m-auto w-auto">
-                <Img
-                  className="h-[60px] md:h-auto object-cover w-[60px]"
-                  src="images/img_icon_60x60.png"
-                  alt="icon"
-                />
-                <div className="flex flex-col gap-6 items-center justify-center w-auto sm:w-full">
-                  <Text
-                    className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-full"
-                    size="txtGaramond32"
-                  >
-                    Email Us
-                  </Text>
-                  <Text
-                    className="text-center text-white-A700 text-xl w-auto"
-                    size="txtPoppinsRegular20WhiteA700"
-                  >
-                    info@emaar.so
-                  </Text>
+            <a href="mailto:info@emaar.so">
+              <div className="bg-gray-900 md:h-[375px] h-[395px] w-[250px] relative sm:w-full">
+                <div className="border border-lime-900 border-solid h-[375px] m-auto w-[95%]">
+                  <div className="absolute flex flex-col gap-10 h-max inset-[0] items-center justify-start m-auto w-auto">
+                    <Img
+                      className="h-[60px] md:h-auto object-cover w-[60px]"
+                      src="images/img_icon_60x60.png"
+                      alt="icon"
+                    />
+                    <div className="flex flex-col gap-6 items-center justify-center w-auto sm:w-full">
+                      <Text
+                        className="md:text-3xl sm:text-[28px] text-[32px] text-center text-white-A700 w-full"
+                        size="txtGaramond32"
+                      >
+                        Email Us
+                      </Text>
+                      <Text
+                        className="text-center text-white-A700 text-xl w-auto"
+                        size="txtPoppinsRegular20WhiteA700"
+                      >
+                        info@emaar.so
+                      </Text>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <ContactUsImage className="bg-gray-900 md:h-[375px] h-[395px] p-2.5 relative w-full" />
-            <ContactUsImage
-              className="bg-gray-900 md:h-[375px] h-[395px] p-2.5 relative w-full"
-              iconimage="images/img_icon_7.png"
-              locationtext="Call Us"
-              addresstext="252611110099"
-            />
+            </a>
+            <a href="tel:252611110099" target="true">
+              <ContactUsImage
+                className="bg-gray-900 md:h-[375px] h-[395px] w-[250px] p-2.5 relative sm:w-full"
+                iconimage="images/img_icon_7.png"
+                locationtext="Call Us"
+                addresstext="252611110099"
+              />
+            </a>
+            <a
+              href="https://maps.app.goo.gl/6aoJb1m1Ycb7VgJD8"
+              target="true"
+            >
+              <ContactUsImage className="bg-gray-900 md:h-[375px] h-[395px] w-[250px] p-2.5 relative sm:w-full" />
+            </a>
           </List>
         </div>
         <Img
