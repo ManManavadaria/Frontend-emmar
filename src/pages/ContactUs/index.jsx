@@ -9,7 +9,7 @@ import ContactUsImage from "components/ContactUsImage";
 
 // const apiKey = process.env.VITE_API_KEY
 // const apiKey = import.meta.env.VITE_API_KEY
-const apiKey = "https://vercel.com/man-patels-projects/backend-emmar/Aqw88Zg3qCpXThMqeCQWCJRaZMQc"
+const apiKey = "https://vercel.com/man-patels-projects/backend-emmar/Aqw88Zg3qCpXThMqeCQWCJRaZMQc/api/user/register"
 console.log(apiKey);
 
 const ContactUsPage = () => {
