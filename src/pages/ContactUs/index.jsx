@@ -9,12 +9,12 @@ import ContactUsImage from "components/ContactUsImage";
 
 // const apiKey = process.env.VITE_API_KEY
 // const apiKey = import.meta.env.VITE_API_KEY
-const apiKey = "https://vercel.com/man-patels-projects/backend-emmar/GpUqPgUii2ZT5dtcCKun5jGEnjha/api/user/register"
+const apiKey = "https://backend-emmar.vercel.app/api/user/register"
 console.log(apiKey);
 
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
-    firstName: "",
+    firstName: "",  
     lastName: "", 
     email: "",
     phoneNumber: "",
