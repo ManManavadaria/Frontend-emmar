@@ -7,10 +7,15 @@ import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 import ContactUsImage from "components/ContactUsImage";
 
+// const apiKey = process.env.VITE_API_KEY
+// const apiKey = import.meta.env.VITE_API_KEY
+const apiKey = "https://vercel.com/man-patels-projects/backend-emmar/Aqw88Zg3qCpXThMqeCQWCJRaZMQc"
+console.log(apiKey);
+
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
     firstName: "",
-    lastName: "",
+    lastName: "", 
     email: "",
     phoneNumber: "",
     message: "",
@@ -44,7 +49,7 @@ const ContactUsPage = () => {
     try {
       await validationSchema.validate(formData, { abortEarly: false });
       // If validation passes, continue with form submission
-      const response = await axios.post(process.env.API, formData);
+      const response = await axios.post(apiKey, formData);
       if (response.status == 200) {
         // Clear the form data
         document.getElementById("form1").reset();
