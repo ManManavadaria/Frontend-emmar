@@ -84,7 +84,7 @@ const ContactUsPage = () => {
         <div className="bg-gray-900 h-[593px] relative w-full">
           <Img
             className="h-[593px] m-auto object-cover w-screen"
-            src="images/img_hero.png"
+            src="images/img_hero.webp"
             alt="hero"
           />
           <div className="absolute bottom-[17%] flex flex-col gap-6 items-start justify-center left-[13%] w-auto">
@@ -106,7 +106,7 @@ const ContactUsPage = () => {
         <div className="bg-white-A700_01 flex md:flex-col flex-row md:gap-10 gap-[122px] items-center justify-start p-20 md:px-10 sm:px-5 w-full">
           <Img
             className="md:flex-1 h-[732px] sm:h-auto ml-40 md:ml-[0] object-cover w-[35%] md:w-full"
-            src="images/img_rectangle4.png"
+            src="images/img_rectangle4.webp"
             alt="rectangleFour"
           />
           <div className="flex md:flex-1 flex-col gap-10 items-start justify-start w-auto md:w-full">
@@ -254,7 +254,7 @@ const ContactUsPage = () => {
                   <div className="absolute flex flex-col gap-10 h-max inset-[0] items-center justify-start m-auto w-auto">
                     <Img
                       className="h-[60px] md:h-auto object-cover w-[60px]"
-                      src="images/img_icon_60x60.png"
+                      src="images/img_icon_60x60.webp"
                       alt="icon"
                     />
                     <div className="flex flex-col gap-6 items-center justify-center w-auto sm:w-full">
@@ -278,7 +278,7 @@ const ContactUsPage = () => {
             <a href="tel:252611110099" target="true">
               <ContactUsImage
                 className="bg-gray-900 md:h-[375px] h-[395px] w-[250px] p-2.5 relative sm:w-full"
-                iconimage="images/img_icon_7.png"
+                iconimage="images/img_icon_7.webp"
                 locationtext="Call Us"
                 addresstext="252611110099"
               />
@@ -293,7 +293,7 @@ const ContactUsPage = () => {
         </div>
         <Img
           className="h-[595px] sm:h-auto object-cover w-[1920px] md:w-full"
-          src="images/img_section.png"
+          src="images/img_section.webp"
           alt="section"
         />
         <Footer className="bg-white-A700 flex gap-2 items-center justify-center md:px-5 px-60 py-[69px] w-full" />

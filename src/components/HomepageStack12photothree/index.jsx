@@ -8,10 +8,10 @@ const HomepageStack12photothree = (props) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    "images/Hero_img_1.png",
-    "images/Hero_img_2.png",
-    "images/Hero_img_3.png",
-    "images/Hero_img_4.png",
+    "images/Hero_img_1.webp",
+    "images/Hero_img_2.webp",
+    "images/Hero_img_3.webp",
+    "images/Hero_img_4.webp",
     // Add more image URLs as needed
   ];
 

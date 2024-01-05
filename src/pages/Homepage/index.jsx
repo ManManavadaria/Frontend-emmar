@@ -16,18 +16,18 @@ import OurServices from "./OurServices";
 
 const images = [
   {
-    src: "images/img_emaarlogo011.png",
+    src: "images/img_emaarlogo011.webp",
     width: "100vw",
     height: "100vh",
     isSelected: true,
   },
   {
-    src: "images/img_emaarlogo011.png",
+    src: "images/img_emaarlogo011.webp",
     width: "100vw",
     height: "100vh",
   },
   {
-    src: "images/img_emaarlogo011.png",
+    src: "images/img_emaarlogo011.webp",
     width: "100vw",
     height: "100vh",
   },
@@ -99,7 +99,7 @@ const HomepagePage = () => {
 
             <Img
               className="h-3 w-[1440px]"
-              src="images/img_slider.svg"
+              src="images/img_slider.webp"
               alt="slider"
             />
           </div>
@@ -109,7 +109,7 @@ const HomepagePage = () => {
             <div
               className="bg-cover bg-no-repeat flex flex-col gap-6 w-[80%] items-center justify-center max-w-[1440px] h-[500px] mx-auto md:px-10 sm:px-5 z-[1] brightness-50"
               style={{
-                backgroundImage: "url('images/img_section_523x1440.png')",
+                backgroundImage: "url('images/img_section_523x1440.webp')",
               }}
             ></div>
             <div className="absolute top-[140px] gap-4 left-[22%] items-center text-center m-auto flex flex-col justify-between">
@@ -146,7 +146,7 @@ const HomepagePage = () => {
           <div
             className="bg-cover bg-no-repeat flex flex-col gap-6 w-full md:w-full items-center justify-center max-w-[1440px] h-[500px] mx-auto md:px-5 sm:px-3 z-[1] brightness-50"
             style={{
-              backgroundImage: "url('images/img_section_523x1440.png')",
+              backgroundImage: "url('images/img_section_523x1440.webp')",
             }}
           ></div>
           <div className="absolute items-center md:top-[70px] md:p-[30px] lg:top-[110px] gap-4 text-center m-auto w-full flex flex-col justify-between md:h-[70%]">

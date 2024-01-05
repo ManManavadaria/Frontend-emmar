@@ -25,7 +25,7 @@ const ProjectsColumnlanguage = (props) => {
 };
 
 ProjectsColumnlanguage.defaultProps = {
-  userimage: "images/img_rectangle2.png",
+  userimage: "images/img_rectangle2.webp",
   projectname: "Project  Hareed Hotel",
 };
 

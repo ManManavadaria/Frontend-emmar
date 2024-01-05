@@ -34,7 +34,7 @@ const ContactUsImage = (props) => {
 };
 
 ContactUsImage.defaultProps = {
-  iconimage: "images/img_icon_6.png",
+  iconimage: "images/img_icon_6.webp",
   locationtext: "Our Location",
   addresstext:
     "1st Floor, Office 101, Sultan Business Park , Wabero Road, Mogadishu, Somalia",

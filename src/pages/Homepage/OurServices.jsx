@@ -17,7 +17,7 @@ const OurServices = () => {
               <div className="bg-gradient min-w-[200px] flex flex-1 flex-col gap-6 h-full items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
                 <Img
                   className="h-[100px] w-[100px]"
-                  src="images/img_housedesignpl.svg"
+                  src="images/img_housedesignpl.webp"
                   alt="housedesignpl"
                 />
                 <Text
@@ -34,7 +34,7 @@ const OurServices = () => {
               <div className="bg-gradient min-w-[200px] flex flex-1 flex-col gap-6 items-center justify-start p-[40px] md:px-10 sm:px-5 w-full">
                 <Img
                   className="h-[100px] w-[100px]"
-                  src="images/img_television.svg"
+                  src="images/img_television.webp"
                   alt="television"
                 />
                 <Text
@@ -51,7 +51,7 @@ const OurServices = () => {
               <div className="bg-gradient min-w-[200px] flex flex-1 flex-col gap-6 items-center justify-start p-[40px] md:px-10 sm:px-5 w-full">
                 <Img
                   className="h-[100px] w-[100px]"
-                  src="images/img_craneliftcons.svg"
+                  src="images/img_craneliftcons.webp"
                   alt="craneliftcons"
                 />
                 <Text
@@ -68,7 +68,7 @@ const OurServices = () => {
               <div className="bg-gradient min-w-[200px] flex flex-1 flex-col gap-6 items-center justify-start p-[40px] md:px-10 sm:px-5 w-full">
                 <Img
                   className="h-[100px] md:h-auto object-cover w-[100px]"
-                  src="images/img_maskgroup.png"
+                  src="images/img_maskgroup.webp"
                   alt="maskgroup"
                 />
                 <Text
@@ -85,7 +85,7 @@ const OurServices = () => {
               <div className="bg-gradient min-w-[200px] flex flex-1 flex-col gap-6 items-center justify-start p-[40px] md:px-10 sm:px-5 w-full">
                 <Img
                   className="h-[100px] w-[100px]"
-                  src="images/img_blueprintplant.svg"
+                  src="images/img_blueprintplant.webp"
                   alt="blueprintplant"
                 />
                 <Text
@@ -98,7 +98,7 @@ const OurServices = () => {
               <div className="bg-gradient min-w-[200px] flex flex-1 flex-col gap-6 items-center justify-start p-[40px] md:px-10 sm:px-5 w-full">
                 <Img
                   className="h-[100px] w-[100px]"
-                  src="images/img_cogwheelsgearenginemachine.svg"
+                  src="images/img_cogwheelsgearenginemachine.webp"
                   alt="cogwheelsgearen"
                 />
                 <Text

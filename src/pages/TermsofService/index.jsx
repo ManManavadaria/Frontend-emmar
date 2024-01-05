@@ -10,7 +10,7 @@ const TermsofServicePage = () => {
         <div className="bg-gray-900 h-[593px] relative w-full">
           <Img
             className="h-[593px] m-auto object-cover w-full"
-            src="images/img_hero_593x1920.png"
+            src="images/img_hero_593x1920.webp"
             alt="hero"
           />
           <Text

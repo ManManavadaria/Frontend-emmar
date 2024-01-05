@@ -9,7 +9,7 @@ const VisionMission = () => {
         <div className="object-contain absolute flex flex-col h-full inset-y-[0] items-end justify-end my-auto right-[0] w-full">
           <Img
             className="h-[100%] w-full opacity-20"
-            src="images/img_12photo2.png"
+            src="images/img_12photo2.webp"
             alt="12photoTwo"
           />
         </div>
@@ -34,7 +34,7 @@ const VisionMission = () => {
         <div className="object-contain absolute flex flex-col h-full inset-y-[0] items-end justify-end my-auto right-[0] w-full">
           <Img
             className="h-[100%] w-full opacity-20"
-            src="images/img_21071502549.png"
+            src="images/img_21071502549.webp"
             alt="12photoTwo"
           />
         </div>

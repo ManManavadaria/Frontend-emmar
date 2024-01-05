@@ -26,7 +26,7 @@ const NavBar = () => {
       <div className="h-52 absolute flex md:flex-col justify-between flex-row md:gap-5 inset-x-[0] items-center  mx-auto top-[0] w-screen transition-all duration-300">
         <Img
           className="h-[250px] md:[200px] md:w-[200px] sm:w-[150px] sm:h-[150px] md:h-auto object-cover w-[250px] md:absolute md:left-[0px] md:top-[0px]"
-          src="images/img_emaarlogo021.png"
+          src="images/img_emaarlogo021.webp"
           alt="emaarlogo021"
           onClick={() => {
             navigate("/");

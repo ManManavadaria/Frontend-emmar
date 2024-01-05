@@ -17,7 +17,7 @@ const ServicesPage = () => {
         <div className="bg-gray-900 h-[593px] relative w-full">
           <Img
             className="h-[593px] m-auto object-cover w-full"
-            src="images/img_hero_2.png"
+            src="images/img_hero_2.webp"
             alt="hero"
           />
           <div className="absolute bottom-[17%] flex flex-col gap-6 items-start justify-center left-[12%] w-auto">
@@ -41,13 +41,13 @@ const ServicesPage = () => {
             <div className="relative w-full">
               <Img
                 className="h-[432px] m-auto object-cover w-full"
-                src="images/img_frame18557.png"
+                src="images/img_frame18557.webp"
                 alt="frame18557"
               />
               <div className="absolute bg-gray-900 bottom-[0] flex flex-col h-[100px] items-center justify-start left-[0] p-5 w-[100px]">
                 <Img
                   className="h-[60px] w-[60px]"
-                  src="images/img_television_white_a700.svg"
+                  src="images/img_television_white_a700.webp"
                   alt="television"
                 />
               </div>
@@ -69,7 +69,7 @@ const ServicesPage = () => {
                 </Text>
                 <Img
                   className="h-6 w-6"
-                  src="images/img_arrowright.svg"
+                  src="images/img_arrowright.webp"
                   alt="arrowright"
                 />
               </div>
@@ -79,7 +79,7 @@ const ServicesPage = () => {
             <div className="flex flex-col items-start justify-start w-full">
               <Img
                 className="h-[432px] md:h-auto object-cover w-full"
-                src="images/img_frame18557_432x700.png"
+                src="images/img_frame18557_432x700.webp"
                 alt="frame18557"
               />
             </div>
@@ -99,7 +99,7 @@ const ServicesPage = () => {
                 </Text>
                 <Img
                   className="h-6 w-6"
-                  src="images/img_arrowright.svg"
+                  src="images/img_arrowright.webp"
                   alt="arrowright"
                 />
               </div>
@@ -109,7 +109,7 @@ const ServicesPage = () => {
             <div className="flex flex-col items-start justify-start w-full">
               <Img
                 className="h-[432px] md:h-auto object-cover w-full"
-                src="images/img_frame18557_1.png"
+                src="images/img_frame18557_1.webp"
                 alt="frame18557"
               />
             </div>
@@ -129,7 +129,7 @@ const ServicesPage = () => {
                 </Text>
                 <Img
                   className="h-6 w-6"
-                  src="images/img_arrowright.svg"
+                  src="images/img_arrowright.webp"
                   alt="arrowright"
                 />
               </div>
@@ -140,14 +140,14 @@ const ServicesPage = () => {
               <div
                 className="bg-cover bg-no-repeat flex flex-col h-[432px] items-start justify-end md:pr-10 sm:pr-5 pr-[332px] pt-[332px] w-full"
                 style={{
-                  backgroundImage: "url('images/img_frame18557_34.png')",
+                  backgroundImage: "url('images/img_frame18557_34.webp')",
                 }}
               >
                 <div className="bg-gray-900 flex flex-col h-[100px] items-center 
                 -start p-5 w-[100px]">
                   <Img
                     className="h-[60px] md:h-auto object-cover w-[60px]"
-                    src="images/img_maskgroup.png"
+                    src="images/img_maskgroup.webp"
                     alt="maskgroup"
                   />
                 </div>
@@ -169,7 +169,7 @@ const ServicesPage = () => {
                 </Text>
                 <Img
                   className="h-6 w-6"
-                  src="images/img_arrowright.svg"
+                  src="images/img_arrowright.webp"
                   alt="arrowright"
                 />
               </div>
@@ -179,7 +179,7 @@ const ServicesPage = () => {
             <div className="flex flex-col items-start justify-start w-full">
               <Img
                 className="h-[432px] md:h-auto object-cover w-full"
-                src="images/img_frame18557_2.png"
+                src="images/img_frame18557_2.webp"
                 alt="frame18557"
               />
             </div>
@@ -199,7 +199,7 @@ const ServicesPage = () => {
                 </Text>
                 <Img
                   className="h-6 w-6"
-                  src="images/img_arrowright.svg"
+                  src="images/img_arrowright.webp"
                   alt="arrowright"
                 />
               </div>
@@ -209,7 +209,7 @@ const ServicesPage = () => {
             <div className="flex flex-col items-start justify-start w-full">
               <Img
                 className="h-[432px] md:h-auto object-cover w-full"
-                src="images/img_frame18557_3.png"
+                src="images/img_frame18557_3.webp"
                 alt="frame18557"
               />
             </div>
@@ -229,7 +229,7 @@ const ServicesPage = () => {
                 </Text>
                 <Img
                   className="h-6 w-6"
-                  src="images/img_arrowright.svg"
+                  src="images/img_arrowright.webp"
                   alt="arrowright"
                 />
               </div>

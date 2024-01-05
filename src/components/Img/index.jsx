@@ -2,7 +2,7 @@ import React from "react";
 
 const Img = ({
   className,
-  src = "defaultNoData.png",
+  src = "defaultNoData.webp",
   alt = "testImg",
   ...restProps
 }) => {

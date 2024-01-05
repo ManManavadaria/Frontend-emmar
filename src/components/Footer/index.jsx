@@ -13,7 +13,7 @@ const Footer = (props) => {
             <div className="flex flex-col gap-6 items-center justify-start w-auto">
               <Img
                 className="h-52 sm:h-auto object-cover w-[280px] md:w-full"
-                src="images/img_emaarlogo021_208x280.png"
+                src="images/img_emaarlogo021_208x280.webp"
                 alt="emaarlogo021_One"
               />
               <div className="flex flex-row gap-3 items-center justify-start w-auto">
@@ -27,7 +27,7 @@ const Footer = (props) => {
                   <a href="https://web.facebook.com/emaarsomalia" target="true">
                     <Img
                       className="h-5"
-                      src="images/img_lafacebookf.svg"
+                      src="images/img_lafacebookf.webp"
                       alt="facebook"
                     />
                   </a>
@@ -46,7 +46,7 @@ const Footer = (props) => {
                   >
                     <Img
                       className="h-5"
-                      src="images/img_airplane.svg"
+                      src="images/img_airplane.webp"
                       alt="airplane"
                     />
                   </a>
@@ -64,7 +64,7 @@ const Footer = (props) => {
                   >
                     <Img
                       className="h-5"
-                      src="images/img_lalinkedinin.svg"
+                      src="images/img_lalinkedinin.webp"
                       alt="lalinkedinin"
                     />
                   </a>
@@ -80,7 +80,7 @@ const Footer = (props) => {
                     href="https://www.instagram.com/emaarcosomalia/?fbclid=IwAR1s_7fDJmtf2vIlAdWSP3gpvSR62nrXs5-5rRHwpDhWJBs8mkfV-w-L7BI"
                     target="true"
                   >
-                    <Img className="h-4" src="images/img_info.svg" alt="info" />
+                    <Img className="h-4" src="images/img_info.webp" alt="info" />
                   </a>
                 </Button>
                 <Button
@@ -94,7 +94,7 @@ const Footer = (props) => {
                     href="https://www.tiktok.com/@emaarsom?fbclid=IwAR0k6Nxzgndj-OIOpNgrJUhQvRGa6OyAe0Zc6D9-k7bFTnlOxQ4MoMRpfKU"
                     target="true"
                   >
-                    <Img src="images/img_vector.svg" alt="vector" />
+                    <Img src="images/img_vector.webp" alt="vector" />
                   </a>
                 </Button>
               </div>
@@ -172,7 +172,7 @@ const Footer = (props) => {
                       >
                         <Img
                           className="h-6 w-6"
-                          src="images/img_carbonlocationfilled.svg"
+                          src="images/img_carbonlocationfilled.webp"
                           alt="carbonlocationf"
                         />
                         <Text
@@ -192,7 +192,7 @@ const Footer = (props) => {
                       >
                         <Img
                           className="h-6 w-6"
-                          src="images/img_carbonphonefilled.svg"
+                          src="images/img_carbonphonefilled.webp"
                           alt="carbonphonefill"
                         />
                         <Text
@@ -211,7 +211,7 @@ const Footer = (props) => {
                       >
                         <Img
                           className="h-6 md:h-auto object-cover w-6"
-                          src="images/img_icon_24x24.png"
+                          src="images/img_icon_24x24.webp"
                           alt="icon"
                         />
                         <Text
